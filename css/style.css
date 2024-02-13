@@ -258,7 +258,7 @@ a.menu:hover {
 
 /* Large profile image */
 .large-profile {
-  background: url('../images/large-profile.png');
+  background: url('../images/large-profile.jpg');
   background-size: cover;
   background-position: center;
 }
