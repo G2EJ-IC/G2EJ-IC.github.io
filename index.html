@@ -7,6 +7,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./stylesheet/header.css" />
         <link rel="stylesheet" href="./stylesheet/style.css" />
         <link rel="stylesheet" href="./stylesheet/menu.css" />
         <link rel="stylesheet" href="./stylesheet/footer.css" />
@@ -15,8 +16,40 @@
     </head>
 
     <!--Section.: body-->
-    <body>
+    <body>        
+        
+        <header id="main-header">		
+            <a id="logo-header" href="#">
+                <span class="site-name">IC.EJGuerreroG</span>
+                <span class="site-desc">Diseño web / IC, MSc(C), Esp, G2EJ</span>
+            </a> <!-- / #logo-header -->
+            <!--Section.: menu-->
+            <nav id='menu'>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+                <ul>
+                <li><a href='http://'>Home</a></li>
+                <li><a class='dropdown-arrow' href='http://'>Products</a>
+                    <ul class='sub-menus'>
+                    <li><a href='http://'>Products Sub Menu 1</a></li>
+                    <li><a href='http://'>Products Sub Menu 2</a></li>
+                    <li><a href='http://'>Products Sub Menu 3</a></li>
+                    <li><a href='http://'>Products Sub Menu 4</a></li>
+                    </ul>
+                </li>
+                <li><a href='http://'>About</a></li>
+                <li><a class='dropdown-arrow' href='http://'>Services</a>
+                    <ul class='sub-menus'>
+                    <li><a href='http://'>Services Sub Menu 1</a></li>
+                    <li><a href='http://'>Services Sub Menu 2</a></li>
+                    <li><a href='http://'>Services Sub Menu 3</a></li>
+                    </ul>
+                </li>
+                <li><a href='http://'>Contact CO</a></li>
+                </ul>
+            </nav><!-- / #nav -->    
+        </header><!-- / #main-header -->
 
+        <br/>
         <!--Section.: table-->
         <table id="customers">
             <h1><b><p style="text-align:center">Universidad Distrital Francisco José de Caldas<br/>
@@ -51,32 +84,6 @@
                 </td>
             </tr>
         </table>
-        <br/>
-
-        <!--Section.: menu-->
-        <nav id='menu'>
-            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-            <ul>
-            <li><a href='http://'>Home</a></li>
-            <li><a class='dropdown-arrow' href='http://'>Products</a>
-                <ul class='sub-menus'>
-                <li><a href='http://'>Products Sub Menu 1</a></li>
-                <li><a href='http://'>Products Sub Menu 2</a></li>
-                <li><a href='http://'>Products Sub Menu 3</a></li>
-                <li><a href='http://'>Products Sub Menu 4</a></li>
-                </ul>
-            </li>
-            <li><a href='http://'>About</a></li>
-            <li><a class='dropdown-arrow' href='http://'>Services</a>
-                <ul class='sub-menus'>
-                <li><a href='http://'>Services Sub Menu 1</a></li>
-                <li><a href='http://'>Services Sub Menu 2</a></li>
-                <li><a href='http://'>Services Sub Menu 3</a></li>
-                </ul>
-            </li>
-            <li><a href='http://'>Contact CO</a></li>
-            </ul>
-        </nav>
         <br/>
 
         <!--Section.: table-->
@@ -343,7 +350,7 @@
                 <a href="https://twitter.com/EJGuerreroG" target="_blank"><img src="./images/twitter.jpeg" class="icon-style" alt="Twitter icon"></a>
                 <a href="https://www.twitter.com" target="_blank"><img src="./images/email.jpeg" class="icon-style" alt="Emailicon"></a>
             </div></p>
-        </div>
+        </div><!-- / #main-footer -->
         
     </body>
 </html>
